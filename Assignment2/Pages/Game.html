@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+	<link href="../styles/GameCSS.css" rel="stylesheet">   
+</head>
+
+<body>
+
+	<!-- Begin header -->
+	<div id="header">
+	<h1>Math Quiz</h1>
+	</div>
+	<!-- End header -->
+
+   <!-- Begin navigation -->
+   <div id="nav">
+   <ul>
+		<li><a href="../Pages/Rules.html">Rules</a></li>
+		<li class="current"><a href="../Pages/Game.html">Game</a></li>
+		<script src="../JS/JavaScript.js"></script>
+		<li><a href="../index.html">Home</a></li>
+   </ul>
+   </div>
+   <!-- End navigation -->
+   
+    <div class="score">
+		<h1>Score: </h1>
+        <h1 id="scored"> 0 ,</h1>
+		<br>
+        <h1>Timer: </h1>
+        <h1 id="time"> 0 </h1>
+    </div>
+	
+	<div class="num">
+        <h1 id="num1"> 17 </h1>
+        <h1>+</h1>
+        <h1 id="num2"> 56 </h1>
+	</div>
+	
+    <form action="#">
+    <div id="input">
+		<input name="startButton" type="button" value="Start">
+        <input name="answerBox" type="number">
+        <input name="enterButton" type="button" value="Enter">
+        <br>
+        <input name="restartButton" type="button" value="Restart">
+    </div>
+    </form>
+
+   <!-- Begin footer -->
+   <div id="footer">Omer Daniyal, &copy; 2021</div>
+   <!-- End footer -->
+   
+</body>
+</html>

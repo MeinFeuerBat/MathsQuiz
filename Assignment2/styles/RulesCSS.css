@@ -1,0 +1,95 @@
+
+body
+{
+   background-color:#353BB2;
+   font-family: Arial, Helvetica, sans-serif;
+   background-image:url('../Images/math.jpg');
+   margin:0;
+   padding:0;
+   width:80%;
+   margin: 0 auto;
+   background-position:50% -5%;
+  }
+
+ #header {
+	height: 60px;
+	background-color:#b7f43e;
+	text-align:center;
+ }
+ 
+ #header h1	{
+ color:black;
+ margin-top:6%;
+ padding: 1%;
+ }
+ 
+ /* styles for navigation */
+#nav {
+   background-color: #004f7e;
+   overflow: hidden;
+   width: 100%;
+
+}
+#nav ul {
+   list-style:none;
+   padding: 0;
+   margin: 0 auto; 	
+   width: 23em; 
+} 
+#nav ul li {
+   font-weight: normal;
+   text-transform: uppercase;
+   float: left;
+}
+#nav ul li a { 	
+  display: block; 
+  background-color:#f14a16;
+  padding: .5em; 	
+  border: 1px solid #ba89a8; 
+  border-radius: .5em;	
+  margin: .25em; 
+}  
+
+#nav ul a:link {
+    color: #fff;
+  }
+#nav ul a:visited {
+    color: #fff;
+  }
+#nav ul a:focus {
+	color:#FC6;
+	border-color: #fff; 
+}
+#nav ul a:hover {
+    color: #fc6;
+	border-color: #fff; 
+  }
+#nav ul a:active {
+	color:#F00;
+}
+  
+ #content
+ {
+ color:white;
+ font-family: Arial, Helvetica, sans-serif;
+ background-image:url('../Images/bg.jpg');
+ padding: 1% 3%;
+ line-height:140%;
+ }
+
+ .introImage {
+ float:right;
+ margin-left:2%;
+ margin-bottom:2%;
+ width:30%;
+ height:30%;
+ }
+ 
+ #footer
+ {
+ text-align:center;
+ padding-top:10px;
+ width:100%;
+ background-color: #3f3f3f;
+ color:pink;
+  }

@@ -1,0 +1,89 @@
+
+body
+{
+   background-color:#3777B2;
+   background-image:url('../Images/maths.jpg');
+   font-family: Arial, Helvetica, sans-serif;
+   margin:0;
+   padding:0;
+}
+ #header {
+	height: 60px;
+	text-align:center;
+ }
+ 
+ #header h1	{
+ color:white;
+ margin-top:4%;
+ padding: 1%;
+ }
+ 
+#content
+{
+   background-color:white;
+   margin:0 15%;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 150%;
+   padding:1% 3%;
+   line-height:140%;
+}
+
+h1
+{
+   margin:0 15%;
+   text-align:center;
+   padding:1%;
+   background-color:#000062;
+   color:white;
+}
+
+#footer
+{
+   background-repeat:no-repeat;
+   background-position:50% 0;
+   text-align:center;
+   padding-top:130px;
+}
+
+#footer
+{
+   background-repeat:no-repeat;
+   background-position:50%;
+   text-align:center;
+   padding-top:10px;
+   color: green;
+}
+
+#nav
+{
+	margin:0 15%;
+	background-color:#B5350E;
+	overflow: auto;
+	padding:1%;
+}
+
+#nav a
+{
+	display:block;
+	width:32%;
+	background-color:#F14A16;
+	padding:.5%;
+	float:left;
+	text-align:center;
+	color:#fff;
+}
+
+#nav a.current
+{
+	background-color:#172EF8;
+	color:white;
+}
+
+.introImage
+{
+   float:right;
+   margin-left:2%;
+   margin-bottom:2%;
+}
+ 
+
